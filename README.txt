@@ -1,6 +1,6 @@
 ================================================
 		 NoSQL Cassandra project
-			  Spotify clone
+		Music Streaming Service - Spotify like
 ================================================
 
 The source code is avaliable for both version of python 2.x and 3.x 
