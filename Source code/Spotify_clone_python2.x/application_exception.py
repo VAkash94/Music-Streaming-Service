@@ -1,0 +1,3 @@
+
+class CreateAccountException(Exception):
+    pass

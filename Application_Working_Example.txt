@@ -1,0 +1,226 @@
+=================================================
+Sample working
+=================================================
+Run login.py
+
+/usr/bin/python2.7 /Pycharm/Database_System_Implementation/Spotify_clone/login.py
+Application started...
+Do you want login using existing account? [Y/n]
+n
+Do you  want to create new account? [Y/n]
+Y
+Enter your username:dbsi
+Enter your password:dbsi
+Account created....
+Login successful....
+-----Menu-----
+1. Today's hits
+2. Playlist
+3. Search
+4. Last played
+5. Currently playing
+6. Close
+1
+---------Today's Hits-------
+
+1. Shape of You by Ed Sheeran. Album - divide
+2. Why So Serious? by Hans Zimmer, James Newton Howard. Album - Dark knight
+3. Cheap Thrills by Sia, Sean Paul. Album - This is acting
+4. Paradox by Hans Zimmer. Album - Inception
+5. Revival (Vande Mataram) by A.R. Rahman. Album - Vande Mataram
+Enter song number to play, 'add song number' to add songs to playlist or 'back' go to home
+2
+
+===============================
+Why So Serious? is playing now
+===============================
+
+---------Today's Hits-------
+1. Shape of You by Ed Sheeran. Album - divide
+2. Why So Serious? by Hans Zimmer, James Newton Howard. Album - Dark knight
+3. Cheap Thrills by Sia, Sean Paul. Album - This is acting
+4. Paradox by Hans Zimmer. Album - Inception
+5. Revival (Vande Mataram) by A.R. Rahman. Album - Vande Mataram
+
+Enter song number to play, 'add song number' to add songs to playlist or 'back' go to home
+back
+-----Menu-----
+1. Today's hits
+2. Playlist
+3. Search
+4. Last played
+5. Currently playing
+6. Close
+2
+1. Create playlist
+2. List existing playlist
+Enter the number or 'back' to go to home
+1
+Enter playlist name
+test
+===============================
+
+Playlist test is created
+===============================
+
+-----Menu-----
+1. Today's hits
+2. Playlist
+3. Search
+4. Last played
+5. Currently playing
+6. Close
+3
+Enter the search string......
+divide
+----Search result----
+
+1. Shape of You by Ed Sheeran. Album - divide
+2. Perfect by Ed Sheeran. Album - divide
+3. Hearts Don't Break Around Here by Ed Sheeran. Album - divide
+4. How Would You Feel (Paean) by Ed Sheeran. Album - divide
+5. Castle on the Hill by Ed Sheeran. Album - divide
+6. Bibia Be Ye Ye by Ed Sheeran. Album - divide
+7. Barcelona by Ed Sheeran. Album - divide
+8. New Man by Ed Sheeran. Album - divide
+9. Nancy Mulligan by Ed Sheeran. Album - divide
+10. Dive by Ed Sheeran. Album - divide
+11. Galway Girl by Ed Sheeran. Album - divide
+12. What Do I Know? by Ed Sheeran. Album - divide
+13. Eraser by Ed Sheeran. Album - divide
+14. Happier by Ed Sheeran. Album - divide
+15. Supermarket Flowers by Ed Sheeran. Album - divide
+16. Save Myself by Ed Sheeran. Album - divide
+Enter song number to play, 'add song number' to add songs to playlist or 'back' go to home
+add 2
+----Playlist----
+1. test
+
+Enter playlist number to add the song
+1
+===============================
+Song Perfect added to test
+===============================
+
+----Search result----
+1. Shape of You by Ed Sheeran. Album - divide
+2. Perfect by Ed Sheeran. Album - divide
+3. Hearts Don't Break Around Here by Ed Sheeran. Album - divide
+4. How Would You Feel (Paean) by Ed Sheeran. Album - divide
+5. Castle on the Hill by Ed Sheeran. Album - divide
+6. Bibia Be Ye Ye by Ed Sheeran. Album - divide
+7. Barcelona by Ed Sheeran. Album - divide
+8. New Man by Ed Sheeran. Album - divide
+9. Nancy Mulligan by Ed Sheeran. Album - divide
+10. Dive by Ed Sheeran. Album - divide
+11. Galway Girl by Ed Sheeran. Album - divide
+12. What Do I Know? by Ed Sheeran. Album - divide
+13. Eraser by Ed Sheeran. Album - divide
+14. Happier by Ed Sheeran. Album - divide
+15. Supermarket Flowers by Ed Sheeran. Album - divide
+16. Save Myself by Ed Sheeran. Album - divide
+
+Enter song number to play, 'add song number' to add songs to playlist or 'back' go to home
+back
+
+-----Menu-----
+1. Today's hits
+2. Playlist
+3. Search
+4. Last played
+5. Currently playing
+6. Close
+3
+Enter the search string......
+cheap thrills
+----Search result----
+
+1. Cheap Thrills by Sia, Sean Paul. Album - This is acting
+2. Cheap Thrills by Sia. Album - This is acting
+Enter song number to play, 'add song number' to add songs to playlist or 'back' go to home
+add 1
+----Playlist----
+1. test
+
+Enter playlist number to add the song
+1
+===============================
+Song Cheap Thrills added to test
+===============================
+
+----Search result----
+1. Cheap Thrills by Sia, Sean Paul. Album - This is acting
+2. Cheap Thrills by Sia. Album - This is acting
+
+Enter song number to play, 'add song number' to add songs to playlist or 'back' go to home
+back
+-----Menu-----
+1. Today's hits
+2. Playlist
+3. Search
+4. Last played
+5. Currently playing
+6. Close
+2
+1. Create playlist
+2. List existing playlist
+Enter the number or 'back' to go to home
+2
+----Playlist----
+1. test
+
+Enter playlist number
+1
+1. Perfect by Ed Sheeran. Album - divide
+2. Cheap Thrills by Sia, Sean Paul. Album - This is acting
+Enter song number to play, 'add song number' to add songs to playlist or 'back' go to home
+1
+
+===============================
+Perfect is playing now
+===============================
+
+--------test--------
+1. Perfect by Ed Sheeran. Album - divide
+2. Cheap Thrills by Sia, Sean Paul. Album - This is acting
+
+Enter song number to play, 'add song number' to add songs to playlist or 'back' go to home
+back
+-----Menu-----
+1. Today's hits
+2. Playlist
+3. Search
+4. Last played
+5. Currently playing
+6. Close
+4
+----Last played-----
+1. Why So Serious? by Hans Zimmer, James Newton Howard. Album - Dark knight
+Enter song number to play or 'back' go to home
+back
+
+-----Menu-----
+1. Today's hits
+2. Playlist
+3. Search
+4. Last played
+5. Currently playing
+6. Close
+5
+----Currently playing-----
+1. Perfect by Ed Sheeran. Album - divide
+Enter 'back' go to home
+6
+Enter 'back' go to home
+back
+-----Menu-----
+1. Today's hits
+2. Playlist
+3. Search
+4. Last played
+5. Currently playing
+6. Close
+6
+Closing application....
+
+Process finished with exit code 0
